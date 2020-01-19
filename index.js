@@ -19,4 +19,5 @@ return "FUNKY!";
 }
 
 funkyFunction();
+
 var theFunk = funkyFunction();
