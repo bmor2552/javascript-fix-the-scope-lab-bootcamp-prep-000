@@ -13,11 +13,8 @@ const two = 2
   return n + two
 
 }
-var theFunk = funkyFunction();
-theFunk();
-
-function funkyFunction() {
-  return function () {}
-
-return "FUNKY!"
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
 }
+var theFunk = funkyFunction();
