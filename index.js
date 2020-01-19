@@ -20,9 +20,8 @@ function funkyFunction () {
 return function innerScope() {
   var inaccessible = "nothing";
   return innerVariable;
-} 
-  
+}
+
   }
 
 var theFunk = innerVariable
-
