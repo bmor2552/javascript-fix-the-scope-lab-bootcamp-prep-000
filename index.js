@@ -13,6 +13,8 @@ const two = 2
   return n + two
 
 }
+var theFunk = funkyFunction();
+theFunk();
 
 function funkyFunction() {
   return function () {}
@@ -20,5 +22,3 @@ function funkyFunction() {
 return "FUNKY!"
 }
 
-var theFunk = funkyFunction();
-theFunk();
