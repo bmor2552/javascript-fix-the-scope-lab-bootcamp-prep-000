@@ -17,4 +17,4 @@ var funkyFunction = function() {
   return function() {
     return "FUNKY!"
 }
- funkyFunction; 
+var theFunk = "FUNKY!"
