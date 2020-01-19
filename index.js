@@ -15,7 +15,14 @@ const two = 2
 }
 
 function funkyFunction () {
-  return "FUNKY!"
+  var innerVariable = "FUNKY!";
+
+return function innerScope() {
+  var inaccessible = "nothing";
+  return innerVariable;
+} 
+  
   }
 
-theFunk = funkyFunction()
+var theFunk = innerVariable
+
