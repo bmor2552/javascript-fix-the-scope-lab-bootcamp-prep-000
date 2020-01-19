@@ -21,4 +21,3 @@ function funkyFunction() {
 
 return "FUNKY!"
 }
-
